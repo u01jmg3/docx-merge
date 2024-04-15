@@ -1,5 +1,5 @@
 {
-  "name": "krustnic/docx-merge",
+  "name": "u01jmg3/docx-merge",
   "type": "library",
   "description": "Simple library for merging multiple MS Word \".docx\" files into one",
   "keywords": ["docx","merge","placeholder"],
