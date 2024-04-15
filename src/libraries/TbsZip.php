@@ -16,6 +16,27 @@
     define('TBSZIP_STRING',32);    // output to string, or add from string
 
     class TbsZip {
+        public $AddInfo;
+        public $ArchFile;
+        public $ArchHnd;
+        public $ArchIsNew;
+        public $ArchIsStream;
+        public $CdEndPos;
+        public $CdFileByName;
+        public $CdFileLst;
+        public $CdFileNbr;
+        public $CdInfo;
+        public $CdPos;
+        public $DisplayError;
+        public $Error;
+        public $LastReadComp;
+        public $LastReadIdx;
+        public $Meth8Ok;
+        public $OutputHandle;
+        public $OutputMode;
+        public $ReplByPos;
+        public $ReplInfo;
+        public $VisFileLst;
 
         function __construct() {
             $this->Meth8Ok = extension_loaded('zlib'); // check if Zlib extension is available. This is need for compress and uncompress with method 8.
